@@ -55,6 +55,14 @@ const AddField = ({ fieldList, onSubmitAddField }) => {
       : `Input Type - ${_startCase(name)}`;
   }
 
+  function isDisabledField(name) {
+    if (name === "text" || name === "select") {
+      return false;
+    }
+
+    return true;
+  }
+
   function renderFieldTypes() {
     return (
       <Select
@@ -63,7 +71,11 @@ const AddField = ({ fieldList, onSubmitAddField }) => {
       >
         {fieldList.map(field => {
           return (
-            <Option value={field.name} key={_uniqueId()}>
+            <Option
+              value={field.name}
+              key={_uniqueId()}
+              disabled={isDisabledField(field.name)}
+            >
               {renderOptionLabel(field.name)}
             </Option>
           );
