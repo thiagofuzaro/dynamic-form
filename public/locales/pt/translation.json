@@ -1,0 +1,21 @@
+{
+  "title": "POC - Fuzaroth",
+  "language": {
+    "set": "Definir idioma"
+  },
+  "messages": {
+    "listDemo": "Lista Demo",
+    "examples": "Exemplos",
+    "participants": "Participantes",
+    "updatedList": "Lista atualizada em Janeiro de 2019",
+    "english": "Inglês",
+    "portuguese": "Português",
+    "createdBy": "Criado com Ant Design por",
+    "createForm": "Criar Formulario",
+    "creationDesk": "Mesa de criação",
+    "screen": "Tela",
+    "addField": "Adicionar campo",
+    "whichField": "Qual campo deseja adicionar?",
+    "choose": "Escolha..."
+  }
+}

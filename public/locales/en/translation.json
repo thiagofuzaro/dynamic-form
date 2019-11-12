@@ -1,0 +1,21 @@
+{
+  "title": "POC - Fuzaroth",
+  "language": {
+    "set": "Set language"
+  },
+  "messages": {
+    "listDemo": "List Demo",
+    "examples": "Exemples",
+    "participants": "Participants",
+    "updatedList": "List updated on January 2019",
+    "english": "English",
+    "portuguese": "Portuguese",
+    "createdBy": "Created with Ant Design by",
+    "createForm": "Create Form",
+    "creationDesk": "Creation Desk",
+    "screen": "Screen",
+    "addField": "Add Field",
+    "whichField": "Which field do you want to add?",
+    "choose": "Choose..."
+  }
+}
