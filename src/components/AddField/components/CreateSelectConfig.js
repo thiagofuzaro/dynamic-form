@@ -60,7 +60,7 @@ const CreateSelectConfig = ({ onChageSelectConfig }) => {
       })}
       <Form.Item>
         <Button type="dashed" onClick={addField}>
-          <Icon type="plus" /> {translate("messages.addField")}
+          <Icon type="plus" /> {translate("messages.addOption")}
         </Button>
       </Form.Item>
     </>

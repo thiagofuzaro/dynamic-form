@@ -14,7 +14,8 @@
     "createForm": "Create Form",
     "creationDesk": "Creation Desk",
     "screen": "Screen",
-    "addField": "Add Field",
+    "addField": "Add field",
+    "addOption": "Add option",
     "whichField": "Which field do you want to add?",
     "choose": "Choose..."
   }
